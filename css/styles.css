@@ -15,6 +15,15 @@ body {
   margin: 0;
 }
 
+header {
+  padding: 1%;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+
+
 #info,
 #aboutMe,
 #softSkills,
@@ -84,18 +93,24 @@ body {
 #contentBox h1,
 #contentBox h2 {
   text-align: center;
-  font-size: 3em;
+  font-size: 4rem;
   margin-bottom: 1%;
 }
 
 /* Information and List Styles */
 #info ul li {
-  font-size: 1.5em;
+  font-size: 3rem;
   margin-bottom: 1%;
 }
 
+#info ul li img {
+  width: 35px;
+  height: 35px;
+  margin-right: 2%;
+}
+
 #info ul li a {
-  font-size: 1em;
+  font-size: 3rem;
   margin-bottom: 1%;
   text-decoration: underline solid #40211653;
   color: #402116;
@@ -118,7 +133,7 @@ table {
 table th,
 table td {
   padding: 2%;
-  font-size: 1.1em;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   border: 1px solid #402116;
@@ -138,7 +153,7 @@ table th {
 
 #contactForm h2 {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5rem;
   margin-bottom: 1%;
 }
 
@@ -148,7 +163,7 @@ table th {
 
 #contactForm label {
   display: block;
-  font-size: 1.2em;
+  font-size: 2rem;
   margin-top: 10px;
 }
 
@@ -175,7 +190,7 @@ table th {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 15px;
-  font-size: 1.2em;
+  font-size: 2rem;
 }
 
 #contactForm input[type="submit"]:hover {
