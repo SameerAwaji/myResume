@@ -22,8 +22,7 @@ header {
   font-weight: 600;
 }
 
-
-
+/* Section Styles */
 #info,
 #aboutMe,
 #softSkills,
@@ -36,8 +35,10 @@ header {
   padding-left: 5%;
   padding-right: 5%;
   border-bottom: 3px dotted #402116;
+  font-size: 2rem;
 }
 
+/* Navigation Styles */
 #navBox {
   padding: 1%;
   background-color: #402116;
@@ -75,6 +76,7 @@ header {
   color: #575922;
 }
 
+/* Content Styles */
 #contentBox {
   width: 100%;
   padding: 1%;
@@ -97,29 +99,7 @@ header {
   margin-bottom: 1%;
 }
 
-/* Information and List Styles */
-#info ul li {
-  font-size: 3rem;
-  margin-bottom: 1%;
-}
-
-#info ul li img {
-  width: 35px;
-  height: 35px;
-  margin-right: 2%;
-}
-
-#info ul li a {
-  font-size: 3rem;
-  margin-bottom: 1%;
-  text-decoration: underline solid #40211653;
-  color: #402116;
-}
-
-#info ul li a:hover {
-  color: #575922;
-}
-
+/* Education List Styles */
 #education ol li {
   list-style-type: upper-roman;
 }
@@ -145,6 +125,18 @@ table th {
   color: #D9B79A;
 }
 
+/* Link Styles */
+a {
+  text-decoration: underline solid #4021167e;
+  color: #402116;
+}
+
+a:hover {
+  text-decoration: underline solid #575922;
+  color: #575922;
+}
+
+/* Contact Form Styles */
 #contactForm {
   width: 100%;
   padding: 5%;

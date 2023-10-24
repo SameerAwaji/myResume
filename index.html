@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- Metadata for SEO -->
     <meta name="description" content="Sameer Awaji's Personal Resume" />
     <meta name="keywords" content="Sameer, Awaji, Resume, CV" />
     <meta name="author" content="Sameer Ahmed Awaji" />
@@ -11,9 +12,11 @@
     <title>Sameer Awaji</title>
   </head>
   <body>
+    <!-- Navigation -->
     <div id="navBox">
       <nav>
         <ul>
+          <!-- Navigation links to page sections -->
           <li><a href="#info">Information</a></li>
           <li><a href="#aboutMe">About Me</a></li>
           <li><a href="#softSkills">Soft Skills</a></li>
@@ -25,7 +28,9 @@
       </nav>
     </div>
 
+    <!-- Main Content Container -->
     <div id="contentBox">
+      <!-- Header Section -->
       <header>
         <div class="name">
           <h1>Sameer Ahmed Awaji</h1>
@@ -33,45 +38,61 @@
         </div>
       </header>
 
+      <!-- Information Section -->
       <div id="info">
         <h2>Information</h2>
-        <ul>
-          <li>
-            <img src="/media/home_icon.png" alt="A home icon" /> Al Falah,
-            Jeddah, Saudi Arabia
-          </li>
-          <li>
-            <img src="/media/phone_icon.png" alt="A phone icon" /> +966 5577 080
-            99
-          </li>
-          <li>
-            <img src="/media/mail_icon.png" alt="A mail icon" /><a
-              href="mailto:sameer4code@gmail.com"
-              >sameer4code@gmail.com</a
-            >
-          </li>
-          <li>
-            <img
-              src="/media/github_icon.png"
-              alt="A GitHub icon"
-              width="25"
-            /><a href="https://github.com/SameerAwaji">SameerAwaji</a>
-          </li>
-        </ul>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Personal Information</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Personal information details -->
+            <tr>
+              <td>Address</td>
+              <td>Al Falah, Jeddah, Saudi Arabia</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+966 5577 080 99</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>
+                <!-- Email link -->
+                <a href="mailto:sameer4code@gmail.com">sameer4code@gmail.com</a>
+              </td>
+            </tr>
+            <tr>
+              <td>GitHub</td>
+              <td>
+                <!-- GitHub link -->
+                <a href="https://github.com/SameerAwaji">SameerAwaji</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
+      <!-- About Me Section -->
       <div id="aboutMe">
         <h2>About Me</h2>
         <p>
+          <!-- Personal introduction -->
           I am a software engineering student at Jeddah University. I am
           passionate about coding and I'm looking for an internship opportunity
           to gain experience and improve my skills.
         </p>
       </div>
 
+      <!-- Soft Skills Section -->
       <div id="softSkills">
         <h2>Soft Skills</h2>
         <ul>
+          <!-- List of soft skills -->
           <li>Teamwork</li>
           <li>Communication</li>
           <li>Problem Solving</li>
@@ -84,6 +105,7 @@
         </ul>
       </div>
 
+      <!-- Programming Skills Section -->
       <div id="programmingSkills">
         <h2>Programming Skills</h2>
         <table>
@@ -95,13 +117,38 @@
             <td>HTML</td>
             <td>1 year</td>
           </tr>
-          <!-- Add more rows for programming skills -->
+          <tr>
+            <td>CSS</td>
+            <td>1 year</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>1 year</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>1 year</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>3 years</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>1 year</td>
+          </tr>
+          <tr>
+            <td>Flutter</td>
+            <td>1 year</td>
+          </tr>
         </table>
       </div>
 
+      <!-- Education Section -->
       <div id="education">
         <h2>Education</h2>
         <ol>
+          <!-- List of education details -->
           <li>University from 2018 until 2022</li>
           <li>High school from 2015 until 2018</li>
           <li>Middle school from 2012 until 2015</li>
@@ -109,28 +156,47 @@
         </ol>
       </div>
 
+      <!-- Projects Section -->
       <div id="projects">
         <h2>Projects</h2>
         <table>
-          <tr>
-            <th>Project Name</th>
-            <th>Project</th>
-          </tr>
-          <tr>
-            <td>Virtual Queue</td>
-            <td>
-              <a href="/projects/Virtual_Queue_Project.pdf"
-                ><img
-                  src="media/VirtualQueue.png"
-                  width="400"
-                  alt="An image of the first page"
-              /></a>
-            </td>
-          </tr>
-          <!-- Add more rows for projects -->
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Project</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Project details -->
+            <tr>
+              <td>Virtual Queue</td>
+              <td>
+                <a href="/projects/Virtual_Queue_Project.pdf">
+                  <img
+                    src="media/VirtualQueue.png"
+                    width="400"
+                    alt="An image of the first page"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Parking Reservation</td>
+              <td>
+                <a href="/projects/Parking_project.pdf">
+                  <img
+                    src="media/ParkingReservation.png"
+                    width="400"
+                    alt="An image of the first page"
+                  />
+                </a>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
 
+      <!-- Contact Form Section -->
       <div id="contactForm">
         <h2>Contact Me Form</h2>
         <form method="POST" action="">
